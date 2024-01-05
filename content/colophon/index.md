@@ -1,21 +1,30 @@
 ---
 layout: layouts/section.njk
 title: Colophon
-metaTitle60Chars: Once eleventy Theme - Demo
-description: This is a description of Once Eleventy Theme
-metaDescription155Chars: This is a description of Once Eleventy Theme
+metaTitle60Chars: About this site | garethdewalters.com
+description: Some brief notes on how this site is made.
+metaDescription155Chars: Some brief notes on how this site is made.
 eleventyNavigation:
   key: About this site
   order: 3
 ---
 ## Essential apps
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This site is published in Auckland, New Zealand using the [Eleventy static site generator](https://www.11ty.dev)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I'm not a frontend designer, so this site's theme is based on the Once theme. I'm working on something more custom in the background.
 
-## Server set-up
+This site is produced using:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- [Bear](https://bear.app)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Pixelmator Pro](https://www.pixelmator.com/pro/)
+- [GitHub Desktop](https://desktop.github.com)
+
+The site logo (did I mention I'm not a graphic designer either?) incorporates the gules (red) three chevronels argent (silvery white) from the flag of Glamorgan (yn Gymraeg: Baner Morgannwg). That design was in turn taken from the arms of Iestyn ap Gwrgant, the last independent ruler of Glamorgan – the region where many of my Welsh family comes from.
+
+## Code and server set-up
+
+I use [Git](https://git-scm.com) for version control, [Github to store the repository](https://github.com/gdewalters/garethdewalters-website), and [Netlify]() for website hosting.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fcc46af1-f249-4989-ad82-3c79fc37a89b/deploy-status)](https://app.netlify.com/sites/garethdewalters-website/deploys)

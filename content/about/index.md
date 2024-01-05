@@ -1,17 +1,13 @@
 ---
 layout: layouts/section.njk
-title: About me
-metaTitle60Chars: Once eleventy Theme - Demo
-description: This is a description of Once Eleventy Theme
-metaDescription155Chars: This is a description of Once Eleventy Theme
+title: A bit about Gareth de Walters
+metaTitle60Chars: About Gareth de Walters
+description: Gareth is web manager who loves history, archaeolgy and linguistics.
+metaDescription155Chars: Gareth is web manager who loves history, archaeolgy and linguistics.
 eleventyNavigation:
   key: About
   order: 4
 ---
-## About Me
+I'm a web manager and web production specialist living in Auckland, New Zeland. I've produced websites and digtal experiences for the British Film Institute, the University of Auckland, Tāmaki Paenga Hira Auckland War Memorial Museum, Vodafone NZ, Heart Foundation NZ and Chorus.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This is my personal website where I publish articles about website production, food and drink, genealogy, linguistics, history and anything else that might pique my interest.

@@ -1,8 +1,8 @@
 module.exports = {
 	title: "Gareth de Walters",
-	url: "https://dewalters-net.netlify.app",
-	domain: "https://dewalters-net.netlify.app",
-	language: "en",
+	url: "https://garethdewalters.com",
+	domain: "https://garethdewalters.com",
+	language: "en-NZ",
 	description: "I am writing about my experiences as a [...].",
 	author: {
 		name: "Gareth de Walters",

@@ -1,0 +1,60 @@
+---
+layout: layouts/base.njk
+featuredImage: /img/default.jpg
+---
+    <main id="content" class="section is-flex-grow-1">
+
+      {% if topPostAd %}
+      <div class="container">
+        {% topPostAd %}
+      </div>
+      {% endif %}
+
+      <article class="container articulo">
+        <header class=" container has-text-left">
+          <h1 class="title is-1 is-size-3-mobile has-text-weight-bold">{{ title }}</h1>
+          <p class="is-size-5 has-text-grey-darker has-text-weight-light is-family-sans-serif">
+            {{ description }}
+          </p>
+          <div class="tags is-justify-content-left mt-3">
+            {% for tag in tags | filterTagList %}
+              <a href="/topic/{{ tag }}" class="tag">{{ tag }}</a>
+            {% endfor %}
+          </div>
+          {% if metadata.showDate %}
+            <p class="mb-1">
+              <time class="has-text-grey-dark is-size-6">Published: {{ page.date | readableDate }}</time>
+            </p>
+          {% endif %}
+        </header>
+
+        {% if featuredImage %}
+          <figure class="image featured-image py-5">
+            <img src="{{featuredImage}}" alt="{{title}}" class="image is-fullwidth">
+          </figure>
+        {% endif %}
+
+        {% bottomImagePostAd %}
+
+        <div class="is-flex">
+
+          <div class="articulo-content content mb-0">
+
+            {{ content | safe }}
+
+          </div>
+
+          {% if config.showShareButtons%}
+            {% include "share-buttons.njk" %}
+          {% endif %}
+
+        </div>
+
+        {% bottomContentPostAd %}
+
+      </article>
+    </main>
+
+    {% if metadata.showRelatedPosts %}
+      {% include "partials/related-articles.njk" %}
+    {% endif %}

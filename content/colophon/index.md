@@ -12,7 +12,7 @@ eleventyNavigation:
 
 This site is published in Auckland, New Zealand using the [Eleventy static site generator](https://www.11ty.dev)
 
-I'm not a frontend designer, so this site's theme is based on the Once theme. I'm working on something more custom in the background.
+I'm not a frontend designer, so this site's theme is based on the Once theme. I'm working on [something more custom](/rebuild/) in the background.
 
 This site is produced using:
 

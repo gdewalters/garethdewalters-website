@@ -17,3 +17,4 @@ A list of improvements I need to make to this website.
     - opengraph
     - canonical
     - author info
+- Fix multi word tags

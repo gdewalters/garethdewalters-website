@@ -2,6 +2,7 @@
 _site/
 package-lock.json
 .DS_Store
+_drafts/
 
 # Logs
 logs

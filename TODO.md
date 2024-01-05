@@ -6,15 +6,17 @@ A list of improvements I need to make to this website.
 - Update style and layput to look nicer. These sites are great!:
     - https://matthiasott.com
     - https://mxb.dev
+    - Work on rebuild layout
 - Enable share buttons, or not
 - PostCSS doesn't seem to be picking up HTML class changes
-    - Maybe needs build to reset?
+    - Maybe needs build to reset? [DONE - Dev issue]
 - Integrate https://www.speedlify.dev/
 - Move mobile menu to the right-hand side
-- Update link colours
+- Update link colours DONE]
 - Add all necessary bits to head
     - manifest.json
     - opengraph
     - canonical
     - author info
-- Fix multi word tags
+- Fix multi word tags [DONE]
+- Add remaining favicons as per: https://realfavicongenerator.net/favicon_checker

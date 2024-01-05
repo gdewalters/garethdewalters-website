@@ -18,7 +18,7 @@ featuredImage: /img/default.jpg
           </p>
           <div class="tags is-justify-content-left mt-3">
             {% for tag in tags | filterTagList %}
-              <a href="/topic/{{ tag }}" class="tag">{{ tag }}</a>
+              <a href="/topic/{{ tag | slugify }}" class="tag">{{ tag }}</a>
             {% endfor %}
           </div>
           {% if metadata.showDate %}

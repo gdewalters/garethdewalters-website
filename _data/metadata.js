@@ -7,7 +7,7 @@ module.exports = {
 	author: {
 		name: "Gareth de Walters",
 		occupation: "Website manager and producer",
-		expertise: "Enterprise content management, UX",
+		expertise: "Websites, food, music, history",
 		email: "gareth@dewalters.net",
 		personalUrl: "https://dewalters.net/about/",
 		personalWebsite: "https://dewalters.net/"

@@ -1,7 +1,7 @@
 ---
 layout: layouts/rebuild-base.njk
 title: Rebuild
-metaTitle60Chars: Once eleventy Theme - Demo
+metaTitle60Chars: Gareth de Walters' personal website
 description: This is a description of Once Eleventy Theme
 metaDescription155Chars: This is a description of Once Eleventy Theme
 eleventyNavigation:

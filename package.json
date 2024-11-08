@@ -1,5 +1,5 @@
 {
-	"name": "dewalters-net",
+	"name": "garethdewalters-website",
 	"version": "0.0.1",
 	"description": "The repository for Gareth de Walters' personal website.",
 	"scripts": {
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/gdewalters/dewalters-net.git"
+		"url": "git://github.com/gdewalters/dewalters-website.git"
 	},
 	"author": {
 		"name": "Gareth de Walters",

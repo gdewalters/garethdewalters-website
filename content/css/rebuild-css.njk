@@ -1,9 +1,0 @@
----
-permalink: /css/rebuild-core.css
-eleventyExcludeFromCollections: true
----
-{% set css %}
-  {% include "css/rebuild-core.css" %}
-  {% include "css/rebuild-boilerplate.css" %}
-{% endset %}
-{{ css | cssmin | safe }}

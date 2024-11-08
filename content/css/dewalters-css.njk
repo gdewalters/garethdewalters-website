@@ -3,7 +3,8 @@ permalink: /css/dewalters-theme.css
 eleventyExcludeFromCollections: true
 ---
 {% set css %}
-  {% include "css/bulma.css" %}
-  {% include "css/custom.css" %}
+  {% include "css/bootstrap.min.css" %}
+  {% include "css/tabler-icons.min.css" %}
+  {% include "css/qurno-styles.css" %}
 {% endset %}
 {{ css | cssmin | safe }}

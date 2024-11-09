@@ -43,11 +43,5 @@
   {% endif %}
 {% endif %}
 
-<!-- Scripts -->
-{% set js %}
-  {% include "js/bootstrap.min.js" %}
-  {% include "js/lightense.min.js" %}
-{% endset %}
-<script>
-  {{ js | jsmin | safe }}
-</script>
+<!-- Main Script -->
+<script src="assets/js/dewalters-js-bundles.js"></script>

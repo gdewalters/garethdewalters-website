@@ -19,20 +19,23 @@ featuredImage: /img/default.jpg
                 <li class="list-inline-item mt-2">—</li>
                 <li class="list-inline-item mt-2">
                   <i class="ti ti-clock"></i>
-                  <span>{{ post | readingTime }} read</span>
+                  <span>{{ content | readingTime }} read</span>
                 </li>
                 <li class="list-inline-item mt-2">—</li>
                 <li class="list-inline-item mt-2">
                   <i class="ti ti-calendar-event"></i>
-                  <span>{{ post.data.date | readableDate }}</span>
+                  <span>{{ page.date | readableDate }}</span>
                 </li>
               </ul>
             </div>
           </div>
           <div class="col-lg-12">
-            <div class="mb-5 text-center">
-              <img class="w-100 h-auto rounded" src="assets/images/blog/03.jpg" alt="What does it take to create an object that travels at 1% the speed of light?" width="970" height="500">
-            </div>
+          {% if featuredImage %}
+            <figure class="mb-5 text-center">
+              <img class="w-100 h-auto rounded" src="{{featuredImage}}" alt="{{title}}" width="970" height="500">
+              <figcaption>{{featuredImageCaption}}</figcaption>
+            </figure>
+          {% endif %}
           </div>
           <div class="col-lg-2 post-share-block order-1 order-lg-0 mt-5 mt-lg-0">
             <div class="position-sticky" style="top:150px">

@@ -10,6 +10,8 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
+const { execSync } = require('child_process')
+
 // -----------------------------------------------------------------
 // Once theme constants
 // -----------------------------------------------------------------
@@ -44,6 +46,11 @@ module.exports = function(eleventyConfig) {
 	// Optional plugins
 	eleventyConfig.addPlugin(readingTime);
 
+	// PageFind
+	eleventyConfig.on('eleventy.after', () => {
+		execSync(`npx pagefind --output-subdir plugins/pagefind --site _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
+	});
+	
 	// Official plugins
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {

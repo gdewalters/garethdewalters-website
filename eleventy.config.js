@@ -20,6 +20,9 @@ const CleanCSS = require("clean-css");
 // PurgeCss
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
 
+// Reading time
+const readingTime = require('eleventy-plugin-reading-time');
+
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
@@ -37,6 +40,9 @@ module.exports = function(eleventyConfig) {
 	// App plugins
 	eleventyConfig.addPlugin(pluginDrafts);
 	eleventyConfig.addPlugin(pluginImages);
+
+	// Optional plugins
+	eleventyConfig.addPlugin(readingTime);
 
 	// Official plugins
 	eleventyConfig.addPlugin(pluginRss);

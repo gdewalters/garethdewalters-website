@@ -2,9 +2,6 @@
 permalink: /assets/css/dewalters-css-bundle.css
 eleventyExcludeFromCollections: true
 ---
-{% set css %}
-  {% include "plugins/bootstrap/bootstrap.min.css" %}
-  {% include "plugins/tabler-icons/tabler-icons.min.css" %}
-  {% include "css/qurno-style.css" %}
-{% endset %}
-{{ css | cssmin | safe }}
+{% include "plugins/bootstrap/bootstrap.min.css" %}
+{% include "plugins/tabler-icons/tabler-icons.min.css" %}
+{% include "css/qurno-style.css" %}

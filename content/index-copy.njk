@@ -1,0 +1,50 @@
+---
+layout: layouts/base.njk
+title: Gareth de Walters' personal website
+metaTitle60Chars: Gareth de Walters' personal website
+description: Gareth de Walters' personal website
+metaDescription155Chars: Gareth de Walters' personal website
+eleventyExcludeFromCollections: true
+eleventyNavigation:
+  key: Home
+  order: 1
+numberOfLatestPostsToShow: 6
+---
+{% topIndexAd %}
+
+<section class="section is-flex-grow-1">
+  <div class="container">
+
+    <div class="columns is-variable is-5-desktop is-multiline is-mobile">
+        {% set postsCount = collections.posts | length %}
+        {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+
+        {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+        {% set postslistCounter = postsCount %}
+
+        {% for post in postslist | reverse %}
+        <div class="column is-one-third-tablet is-full-mobile mb-5">
+        {% include "partials/card.njk" %}
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section has-background-light">
+  <div class="container pb-3" style="max-width:960px">
+      <div class="columns is-multiline">
+          <div class="column is-full">
+              <h3 class="title is-5 has-text-centered mt-3 mb-3">
+                More articles
+              </h3>
+              <div class="column has-text-centered">
+                {% set morePosts = postsCount - numberOfLatestPostsToShow %}
+                {% if morePosts > 0 %}
+                <p>{{ morePosts }} more article{% if morePosts != 1 %}s{% endif %} can be found in <a href="{{ metadata.writingArchiveUrl }}">the archive</a>.</p>
+                {% endif %}
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
